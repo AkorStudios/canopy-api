@@ -4,9 +4,7 @@ from pymongo.server_api import ServerApi
 
 app = Flask(__name__)
 
-# Replace the connection string with your own from MongoDB Atlas
-# Make sure to replace <password> with your actual password and <dbname> with your preferred database name
-# Also, don't forget to whitelist your IP address in the MongoDB Atlas security settings
+# Mongo Connection string
 
 mongo_uri = "mongodb+srv://pilotcanopy:AdityaMichael@canopy-pilot-database.ixg30z7.mongodb.net/canopy-pilot-database?retryWrites=true&w=majority"
 
